@@ -1,0 +1,68 @@
+/* ALL Selector CSS */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY CSS */
+body { 
+    background: #000000;
+}
+
+/* Wrapper CSS */
+.wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wrapper Loader CSS */
+.wrapper .loader { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2px;
+}
+
+/* Loader Loading CSS */
+.loader .loading { 
+    background: #ffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px; 
+    margin: 0 10px;
+    animation: load 0.8s ease infinite;
+}
+
+/* Loader Loading One CSS */
+.loader .loading.one { 
+    animation-delay: 0.2s;
+}
+
+/* Loader Loading Two CSS */
+.loader .loading.two { 
+    animation-delay: 0.3s;
+}
+
+/* Loader Loading Three CSS */
+.loader .loading.three { 
+    animation-delay: 0.4s;
+}
+
+/* Loader Loading Four CSS */
+.loader .loading.four { 
+    animation-delay: 0.5s;
+}
+
+/* Animation Keyframe Tag CSS */
+@keyframes load {
+    0% {
+        width: 30px;
+        height: 30px;
+    }
+    50%{ 
+        width: 20px;
+        height: 20px;
+    }
+}
